@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-top: 20px;
+}
+
+button{
+    border: 2px solid #0056b3;
+    border-radius: 5px;
+    height: 45px;
+    width: 160px;
+    background-color:black;
+    cursor: pointer;
+  
+    
+}
+button a{
+	 color: white;
+}
+
+button:hover {
+    background-color:red;
+    border-color: #003d80;
+}
+
+button.active {
+    background-color: #28a745;
+}
+
+table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.logout {
+    margin: 20px;
+    text-align: right;
+}
+
+.logout button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout button:hover {
+    background-color: darkred;
+}
+
+hr {
+    height: 2px;
+    background-color: #333;
+    margin: 10px 0;
+}
